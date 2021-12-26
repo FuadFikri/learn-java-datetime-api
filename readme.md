@@ -1,14 +1,14 @@
-#Java Date Time API
+# Java Date Time API
 
-###Date
+### Date
 - deprecated
 - tidak direkomendasikan lagi
 
 
-###Calendar
+### Calendar
 - Memanipulasi tanggal dan waktu
 
-###Timezone
+### Timezone
 - Direpresentasikan class TimeZone
 - Ketika membuat object Calendar dan tidak menyebutkan timezone-nya maka akan menggunakan default timezone yang ada di sistem operasi
 - Untuk menggunakan timezone tertentu bisa menggunakan TimeZone.getTimeZone("Zone ID)
