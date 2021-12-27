@@ -18,4 +18,9 @@
 - Representasi untuk tipe tanggal saja (tanpa waktu)
 - Bersifat immutable
 
+### LocalTime
+- Representasi waktu tanpa tanggal
+- Bersifat immutable
+- Format standard HH:mm:ss.nano
+
 
