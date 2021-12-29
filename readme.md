@@ -40,3 +40,12 @@
 ### MonthDay
 - Tipe data  bulan dan hari
 - default format `--MM-dd`
+
+### ZoneId
+- Representasi zone id
+
+
+### ZoneOffset
+- Representasi timezone dengan offset dari time zone UTC atau GMT
+- Misalnya +07:00 atau -02:00
+- turunan dari class ZoneId
