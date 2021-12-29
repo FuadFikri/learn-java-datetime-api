@@ -23,4 +23,7 @@
 - Bersifat immutable
 - Format standard HH:mm:ss.nano
 
-
+### LocalDateTime
+- Gabungan LocalDate dan LocalTime
+- Representasi tanggal dan waktu
+- Bersifat immutable
