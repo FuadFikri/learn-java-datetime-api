@@ -49,3 +49,22 @@
 - Representasi timezone dengan offset dari time zone UTC atau GMT
 - Misalnya +07:00 atau -02:00
 - turunan dari class ZoneId
+
+
+### ZonedDateTime
+- Digunakan ketika kita ingin membuat tanggal waktu yang mendukung time zone.
+- Class ini hampir sama dengan LocalDateTime perbedaannya hanyalah mendukung time zone
+- Format default untuk ZonedDateTime adalah yyyy-MM-ddTHH:mm:ss.nano(+/-)ZoneOffset[ZoneId], dimana ZoneId tidak wajib, dan jika ZoneId diisi, maka nilai ZoneOffset akan di hiraukan
+              
+   
+    ZonedDateTime zonedDateTime = ZonedDateTime.now();
+    System.out.println(zonedDateTime);
+
+     - change timezone without change date and time
+    ZonedDateTime zonedDateTime1 = zonedDateTime.withZoneSameLocal(ZoneId.of("GMT"));
+    System.out.println(zonedDateTime1);
+    
+    - change zoneId and date and time will be change
+    ZonedDateTime zonedDateTime2 = zonedDateTime.withZoneSameInstant(ZoneId.of("GMT"));
+    System.out.println(zonedDateTime2);
+
