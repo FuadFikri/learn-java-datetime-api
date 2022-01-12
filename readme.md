@@ -69,3 +69,9 @@
     ZonedDateTime zonedDateTime2 = zonedDateTime.withZoneSameInstant(ZoneId.of("GMT"));
     System.out.println(zonedDateTime2);
 
+### OffsetTime dan OffsetDateTime
+- Class OffsetTime adalah kelas Time yang memiliki offset
+- Class OffsetDateTime adalah kelas Date Time yang memiliki offset
+- OffsetDateTime hanya bisa menggunakan ZoneOffset tidak bisa menggunakan ZoneId
+- format default OffsetTime adalah HH:mm:ss(+/-)ZoneOffset
+- format default OffsetDateTime adalah yyyy-MM-ddTHH:mm:ss(+/-)ZoneOffset
