@@ -80,3 +80,8 @@
 - millisecond pada java date time lama menggunakan tipe data Long
 - pada Java Date Time API yang baru menggunakan Instant
 - secara timezone, Instant menggunakan UTC(00:00)
+
+
+### CLock
+- Clock adalah representasi tanggal dan waktu **saat ini** mengikuti time zone yang kita pilih
+- Best practice nya sebenarnya jika kita ingin menggunakan tipe data di Date & Time API yang multi time zone adalah menggunakan Clock, sehingga jika kita ingin membuat data baru, kita bisa memanfaatkan Clock
