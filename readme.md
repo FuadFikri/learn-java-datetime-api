@@ -75,3 +75,8 @@
 - OffsetDateTime hanya bisa menggunakan ZoneOffset tidak bisa menggunakan ZoneId
 - format default OffsetTime adalah HH:mm:ss(+/-)ZoneOffset
 - format default OffsetDateTime adalah yyyy-MM-ddTHH:mm:ss(+/-)ZoneOffset
+
+### Instant
+- millisecond pada java date time lama menggunakan tipe data Long
+- pada Java Date Time API yang baru menggunakan Instant
+- secara timezone, Instant menggunakan UTC(00:00)
