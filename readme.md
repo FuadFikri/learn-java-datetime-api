@@ -85,3 +85,7 @@
 ### CLock
 - Clock adalah representasi tanggal dan waktu **saat ini** mengikuti time zone yang kita pilih
 - Best practice nya sebenarnya jika kita ingin menggunakan tipe data di Date & Time API yang multi time zone adalah menggunakan Clock, sehingga jika kita ingin membuat data baru, kita bisa memanfaatkan Clock
+
+
+### Duration
+- Representasi data durasi waktu
