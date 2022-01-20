@@ -89,3 +89,7 @@
 
 ### Duration
 - Representasi data durasi waktu
+
+### Period
+- Representasi durasi tanggal
+- berapa tahun berapa bulan, minggu, hari
