@@ -93,3 +93,8 @@
 ### Period
 - Representasi durasi tanggal
 - berapa tahun berapa bulan, minggu, hari
+
+
+### Day of Week
+- turunan Temporal
+- SENIN, SELASA, RABU, ....
